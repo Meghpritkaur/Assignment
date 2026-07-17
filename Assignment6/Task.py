@@ -39,11 +39,9 @@ myntra_users={"Megh","Priyanka","Sam","Aditi","Sakshi"}
 print("Have accounts on both platform:",flipkart_users.intersection(myntra_users))
 '''
 
-
-
 #TASK 5:Write a function get_unique_artists(spotify_playlist1, spotify_playlist2) that takes two sets of artist names and returns a set of all unique artists across both playlists (set union).
 # <br><br><em><strong>Hint:</strong> Use the union() method or the | operator for sets.</em>
-
+'''
 def get_unique_artists(spotify_playlist1, spotify_playlist2):
     return spotify_playlist1.union(spotify_playlist2)
 spotify_playlist1={'Arijit Singh','Diljit dosanjh','Karan Aujla'}
@@ -51,3 +49,5 @@ spotify_playlist2={'Badshaah','Atif Aslam','Karan Aujla'}
 
 result=get_unique_artists(spotify_playlist1,spotify_playlist2)
 print(result)
+
+'''
